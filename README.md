@@ -1,6 +1,34 @@
 ### deeplabv3（mobilenetv2+xception）加载model，分割测试图片并更换背景，设置背景透明化：
-
 - #### 使用：
+  - model文件过大，超过400M无法上传，需要自己创建目录文件并下载，下载地址：`https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md`，修改目录结构，目录结构放在文件末尾。
+  - 目录结构：
+   
+  ```
+  D:.  
+  │  README.md  
+  │  run.py  
+  │  
+  ├─models  
+  │  └─download  
+  │      ├─mobilenetv2  
+  │      │      deeplabv3_mnv2_pascal_trainval_2018_01_29.tar.gz
+  │      │      deeplabv3_mnv2_pascal_train_aug_2018_01_29.tar.gz
+  │      │
+  │      └─xception
+  │              deeplabv3_pascal_trainval_2018_01_04.tar.gz
+  │              deeplabv3_pascal_train_aug_2018_01_04.tar.gz
+  │
+  ├─temp_images
+  │      image_transparent.png
+  │      pre_image.png
+  │      re_image.png
+  │
+  └─test_images
+          back.jpg
+          image1.jpg
+          test.jpg
+          test_people.jpg
+  ```
   - 修改run.py代码末尾的参数，选择model和图片，运行
   - 依赖：
     - numpy
@@ -45,3 +73,6 @@
 <img src="https://github.com/XiXiangkun/images/blob/master/xception_val.png?raw=true" width="500" hegiht="250" align=center />
   - 最终效果：  
 <img src="https://github.com/XiXiangkun/images/blob/master/seg_result.png?raw=true" width="700" hegiht="350" align=center />
+
+
+  

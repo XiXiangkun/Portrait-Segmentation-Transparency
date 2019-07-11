@@ -36,12 +36,12 @@
 - #### 运行结果：
   - 四次对比：
     - mobilenetv2_aug:  
-<img src="https://github.com/XiXiangkun/images/blob/master/mobilenetv2_aug.png?raw=true" width="400" hegiht="150" align=center />
+<img src="https://github.com/XiXiangkun/images/blob/master/mobilenetv2_aug.png?raw=true" width="500" hegiht="250" align=center />
     - mobilenetv2_val:  
-<img src="https://github.com/XiXiangkun/images/blob/master/mobilenetv2_val.png?raw=true" width="400" hegiht="150" align=center />
+<img src="https://github.com/XiXiangkun/images/blob/master/mobilenetv2_val.png?raw=true" width="500" hegiht="250" align=center />
     - xception_aug:  
-<img src="https://github.com/XiXiangkun/images/blob/master/xception_aug.png?raw=true" width="400" hegiht="150" align=center />
+<img src="https://github.com/XiXiangkun/images/blob/master/xception_aug.png?raw=true" width="500" hegiht="250" align=center />
     - xception_val:  
-<img src="https://github.com/XiXiangkun/images/blob/master/xception_val.png?raw=true" width="400" hegiht="150" align=center />
+<img src="https://github.com/XiXiangkun/images/blob/master/xception_val.png?raw=true" width="500" hegiht="250" align=center />
   - 最终效果：  
-<img src="https://github.com/XiXiangkun/images/blob/master/seg_result.png?raw=true" width="400" hegiht="150" align=center />
+<img src="https://github.com/XiXiangkun/images/blob/master/seg_result.png?raw=true" width="700" hegiht="350" align=center />
